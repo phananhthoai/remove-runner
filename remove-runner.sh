@@ -1,6 +1,6 @@
 set -ex
 
-github_token=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
+github_token=${{ GITHUB_TOKEN }}
 for item in elofun-devops; do
   page=0
   while true; do
